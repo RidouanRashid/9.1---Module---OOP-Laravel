@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    color: #222;
+}
+
+video {
+    max-width: 100%;
+    display: block;
+}
+
+h1, h2 {
+    margin-top: 2rem;
+}
+
+.field {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.error {
+    color: #c0392b;
+    margin: 0.25rem 0 0;
+    font-size: 0.9rem;
+}
+
+button {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.comments {
+    list-style: none;
+    padding: 0;
+}
+
+.comments li {
+    border-top: 1px solid #ddd;
+    padding: 1rem 0;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+    font-size: 0.9rem;
+}
